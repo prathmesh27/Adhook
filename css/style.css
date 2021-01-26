@@ -1,0 +1,389 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    outline: none;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body  {
+    font-family: 'Montserrat', sans-serif;
+   }
+header{
+    position: fixed;
+    width:100%;
+    padding:.5rem 0;
+    z-index: 99;
+}
+header .desktop-header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .desktop-header .logo-sec{
+    width: 180px;
+}
+header .desktop-header .logo-sec img{
+    max-width: 100%;
+}
+header .desktop-header .navigation-sec ul{
+    display:flex;align-items: center;
+}
+header .desktop-header .navigation-sec .contact:hover{
+        background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+header .desktop-header .navigation-sec .contact{
+        background-color: #23c1cb;
+    color: #fff;
+    padding: 12px 30px;
+    border: 1px solid #23c1cb;
+    display: inline-block;
+    border-radius: 50px;
+    margin-left:1rem;
+}
+header .desktop-header .navigation-sec ul li a{
+    padding:0 1.5rem;
+    font-weight: 500;
+    text-decoration:none;
+    font-size: 14px;  
+    color:#fff;
+}
+/* Parallax animation effects */
+.hero-carousel .carousel-item .carousel-image{
+  transform: scale(1) translateX(0);
+  transition: all 0.6s;
+}
+
+.hero-carousel .carousel-item.carousel-item-next .carousel-image,
+.hero-carousel .carousel-item.active.carousel-item-right .carousel-image{
+  transform: scale(1.3) translateX(-50%);
+}
+
+.hero-carousel .carousel-item.carousel-item-prev .carousel-image,
+.hero-carousel .carousel-item.active.carousel-item-left .carousel-image{
+  transform: scale(1.3) translateX(50%);
+}
+
+.hero-carousel .carousel-item.carousel-item-next.carousel-item-left .carousel-image, 
+.hero-carousel .carousel-item.carousel-item-prev.carousel-item-right .carousel-image{
+  /*transform: scale(1);*/
+  transform: scale(1) translateX(0);
+}
+
+
+/* Makes carousel full screen */
+.hero-carousel .carousel-item{
+  height: 100vh;
+  overflow: hidden;
+}
+.hero-carousel .carousel-item .carousel-image{
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .banner-section .carousel-image{
+    display: flex;
+    align-items: center;
+}
+
+main .banner-section .carousel .carousel-image{
+    display: flex;
+    align-items: center;
+}
+
+main .banner-section .carousel .carousel-image .content-sec{
+    padding:0 5rem;
+}
+main .banner-section .carousel .carousel-image .content-sec h1{
+        color: #fff;
+        font-size: calc(112.5% + 3vw);
+        line-height: 1.3;
+        margin-bottom: .7rem;
+    }
+
+main .banner-section .carousel .carousel-image .content-sec h1 .br{
+    display:block;
+}
+main .banner-section .carousel .carousel-image .content-sec .para{
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.6;
+}
+main .video-pop-up{
+    margin:1rem 0;
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+main .video-pop-up .b-s{
+        background: rgba(255,255,255,.3);
+        xpadding:15px 20px;
+        display: flex;
+        width:10%;
+        align-items: center;
+        justify-content: center;
+}
+main .video-pop-up img{
+    width: 15px;
+    transform:rotate(180deg);
+}
+.carousel .heading  h2{
+    font-size:  30px;
+    text-align:   left; 
+    line-height:    1.4;
+ }
+.carousel .heading:before{
+    content:'';
+    display:    none !important;   
+}
+header .heading  h2{
+    font-size: 30px;
+    color: #000;
+    text-align:     left ; 
+    font-weight:    600;
+    line-height:    1.4;
+    margin-bottom:  .5rem; 
+}
+main .cms h2,
+main .heading  h2{
+    font-size: 30px;
+    color: #23c1cb;
+    text-align:     left ; 
+    font-weight:    600;
+    line-height:    1.4;
+    margin-bottom:  .5rem;
+}
+.cms p ,
+main .heading p,
+.growth_mar-inner p{
+    line-height: 1.59;
+    font-size: 15px;
+    font-weight: 300;
+}
+.p-7 {
+    padding: calc(1rem + 2vw);
+}
+.cms h5{
+    margin-bottom: .6rem;
+}
+.cms h5:after {
+    content: "";
+    width: 1.75rem;
+    height: 4px;
+    margin: .6rem 0;
+    display:block; 
+   xbackground: #000;
+        background: #23c1cb;
+}
+.banner-section{
+    position:   relative;   
+}
+.banner-section
+.featured-section{
+    position: absolute; 
+    bottom:     0;
+    color:  #fff;
+    width:  100%;
+    padding:    3rem 5rem;
+        display:    flex;   
+        justify-content:   space-between;   
+        align-items:    flex-end;
+}
+.banner-section
+.featured-section .logo-sec ul{
+    display: flex;  
+}
+.banner-section
+.featured-section .logo-sec ul li {
+    padding:0 .5rem;
+}
+.growth_mar{
+    margin:     3rem 0;
+}
+main .heading p{
+    width:  60%;
+    xmargin:auto;    
+    text-align:left ; 
+}
+.growth_mar{
+    margin: 2rem 0;
+}
+.growth_mar
+.growth_mar-inner {
+    margin:     3rem 0;
+}
+.growth_mar
+.growth_mar-inner h2{
+        font-weight:   600;
+        font-size:  20px;
+        margin:     .5rem 0;
+}
+.growth_mar
+.growth_mar-inner img{
+    width:  30px;
+}
+.btn{
+    background:#23c1cb;
+    padding:8px 70px;
+    text-transform:     uppercase;
+    font-size:  13px;
+    color:  #000;
+    font-weight:    600;
+    border-radius:0;
+}
+.btn:hover{
+    border:1px solid #23c1cb;
+    background: transparent;    
+}
+.heading {
+    display:flex;   
+    align-items:    center; 
+}
+.heading  h2,
+.heading  p{
+    text-align:   left; 
+    margin: unset;  
+    padding:0 12px;
+}
+main .heading:before {
+    content: '';
+    height: 125px;
+    width: 5px;
+        background:      #23c1cb;
+   xbackground: #000;
+    display: inline-block;
+}
+.services{
+    padding:3rem 0;
+    background:#f6f6f6;
+}
+.services .rows{
+    display:flex;
+    align-items:    flex-end;
+    justify-content:    center; 
+    padding:1rem;
+}
+.services .rows .services-inner{
+    background:#fff;
+    text-align:center;  
+    padding:    2rem;
+    margin:2rem 0;
+    border-right: 1px solid #eee;
+}
+.services .rows .services-inner p{
+    font-weight: 600;
+    color:  #6d6d6d;
+    font-size:15px;
+    margin:.5rem 0 0;
+}
+.services .rows .services-inner img{
+    width:80px;
+}
+.digi-trends{
+    margin: 3rem 0;
+}
+.digi-trends
+.nav-pills .nav-link{
+        border: 1px solid #eee;
+    color: #000;
+    padding: 15px;
+    border-radius: 0;
+    font-size: 14px;
+    margin:.5rem 0;
+}
+.digi-trends
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    background:  transparent;   
+    border:1px solid    #23c1cb;
+    color:  #23c1cb;
+}
+.digi-trends
+.bg-gray {
+    background: #f6f6f6;
+}
+.digi-trends
+.trend-stats p{
+    font-size:  14px;
+    line-height:    1.6;
+}
+.digi-trends
+.trend-stats>span {
+    font-weight: 500;
+    margin-bottom: .8rem;
+    display: block;
+    font-size: calc(112.5% + 0.21vw);
+    font-size:15px;
+}
+#myNavbar ul li .contact:after{
+        display:    none;   
+}
+#myNavbar ul li a {
+  position: relative;
+     transition: 0.5s;
+}
+#myNavbar ul li a::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  top: 100%;
+  left: 0;
+  background: #76CBF5;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: right;
+  margin:8px 0;
+}
+#myNavbar ul li a:hover {
+  xcolor: #95a5a6;
+}
+#myNavbar ul li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+header .bgwhiteopac {
+    background: transparent ;
+}
+ .bgwhite {
+    background: #000000b5;
+    transition: background-color 1s ease;
+}

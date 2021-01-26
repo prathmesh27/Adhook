@@ -1,0 +1,595 @@
+@media screen and (max-width: 1980px) and (min-width: 1367px){}
+@media screen and (max-width: 1920px) and (min-width: 1367px){}
+@media screen and (max-width: 1680px) and (min-width: 1367px){}
+@media screen and (max-width: 1600px) and (min-width: 1367px){}
+@media screen and (max-width: 1440px) and (min-width: 1367px){}
+@media screen and (min-width: 1400px){
+    .banner-sec .form-div{
+        width: 345px;
+    }
+    .blog-section {
+    margin-top: -123px;
+}
+}
+@media screen and (max-width: 1280px){
+	.banner-sec .carousel .carousel-indicators {
+    	bottom: 15%;
+	}
+	
+}
+@media screen and (max-width: 1199px){
+		.banner-sec .carousel .carousel-caption{
+			top: 	11%;
+		}
+		.banner-sec .carousel .carousel-caption h2{
+			font-size: 	25px;
+		}
+		.banner-sec .carousel .carousel-caption h2 span {
+		    font-size: 37px;
+		}
+		.banner-sec .carousel .carousel-caption p {
+    		font-size: 15px;
+		}
+		.banner-sec .form-div{
+			width: 	25%;
+			right: 5%;
+		}
+		.health-packages .slick-prev, .video-slider .slick-prev {
+		    left: -35px;
+		}
+		.slick-next {
+   			 right: -35px;
+		}
+		.locations .locations-inner .row {
+    		justify-content: center	;
+		}
+		.map-section{
+			margin:2rem auto 0;	
+		}
+}
+@media screen and (max-width: 1200px){
+	.custom-container{
+    max-width: 1140px;
+}
+.health-packages .slick-prev, .video-slider .slick-prev,
+.blog .slick-prev{
+    left: -25px;
+}
+.health-packages .slick-next, .video-slider .slick-next,
+.blog .slick-next{
+    right: -25px;
+}
+.slick-next {
+    right: -25px;
+}
+}
+@media screen and (max-width: 1024px){
+	.skeleton-section .skeleton-content-section .inner-section p{
+		font-size: 	16px;
+	}
+	.skeleton-section .skeleton-content-section h2 {
+    	font-size: 30px;
+    	margin-bottom: .5rem;
+	}
+	.slick-prev {
+    	left: 0;
+	}
+	.slick-next{
+		right:0;
+	}
+}
+@media screen and (max-width: 993px){
+    .header-fixed{
+            padding-top: 63px;
+    }
+	.healthpackage_inner .healthpackage_content .rates{
+		justify-content: 	center;	
+	}
+	.healthpackage_inner .healthpackage_content .rates .old-rates,
+	.healthpackage_inner .healthpackage_content .rates .new-rates {
+ 	   margin: 0 10px;
+	}
+	.skeleton-section .ml- {
+    	margin-bottom: 0rem;
+	}
+	.skeleton-section .human{
+		margin-top: 2rem;
+	}
+	.skeleton-section .mt- {
+    	margin-top: 1rem;
+	}
+	.skeleton-section .skeleton-content-section {
+    	margin-bottom: 0rem;
+	}
+	.desktop-navbar,
+	.desktop-carousel{
+		display: none;	
+	}
+	.mobile-carousel{
+		display:block;
+		zoverflow-x: hidden;
+	}
+	.mobile-navbar{
+		display:flex;	
+		padding:.7rem 0;
+	}
+	.banner-sec .form-div{
+		position:initial;
+		width:40%;
+		margin:2rem auto .5rem;
+	}
+	.skeleton-section {
+    	margin: 0;
+	}
+	.mobile-navbar .logo {
+    	width: 170px;
+	}
+	.habits .left-back,
+	.habits .right-back,
+	.health-packages .top-right-bg,
+	.health-packages .bottom-left-bg,
+	.health-packages .slick-next,
+	.health-packages .slick-prev,
+	.video-slider .slick-next,
+	.video-slider .slick-prev,
+	.blog .slick-next,
+	.blog .slick-prev{
+		display:none !important;
+	}
+	.heading h2 {
+    	font-size: 30px;
+	}
+	.all-blog-stories .slick-slide {
+    margin: 1rem;
+}
+.hp_div{
+	margin:13px 15px !important;
+}
+.banner-sec .carousel .carousel-indicators{
+	bottom: 0rem;
+    right: -4rem;
+	margin-left:unset;	
+}
+.locations-inner .row{
+	align-items: 	center;	
+}
+.habits{
+	margin:2rem 0;
+}
+.view-btn-sec {
+    margin: 3rem 0 0;
+    text-align: center;
+}
+.heading {
+    margin-bottom: 1rem;
+}
+.skeleton-section .para {
+    font-size: 14px;
+    width: 100%;
+}
+.skeleton-section nav{
+	justify-content: center;
+}
+.slick-dots li button:before{
+	font-size: 30px;
+}
+.banner-sec .carousel .carousel-indicators li {
+    width: 9px;
+    height: 9px;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #FFCC00;
+}
+.skeleton-section ul{
+	justify-content:center;
+}
+.social-foo{
+	padding:20px 20px 40px 0 !important;
+}
+footer 	 .text-right{
+	text-align:left !important;
+}
+.locations .locations-inner .df{
+	padding: 0;
+}
+.locations
+.locations-inner img{
+width:40px;
+}
+  .payment .Checkout-detail-sec .Sample .bx,
+    .payment .Checkout-detail-sec .date-sec,
+    .payment .Checkout-detail-sec .Available .form-control{
+        width:100%;
+    }
+}
+@media screen and (max-width: 800px){
+.find-a-lab .location-center .location-content ul li{
+    width:100%;
+}
+.find-a-lab .location-center img {
+    width: 45px;
+}
+.find-a-lab .location-center .location-content ul li{
+    font-size:  14px;
+}
+.find-a-lab .location-center .Directions .lc {
+    margin: 0 .5rem 0.5rem 0;
+}
+.find-a-lab .find-a-lab-inner p{
+        font-size: 14px;
+    line-height: 1.4;
+}
+.find-a-lab .bg{
+    display:    none;   
+}
+}
+@media screen and (max-width: 767px){
+  
+	.mobile-map{
+    display: block;
+}
+.desktop-map,
+.locations .heading p{
+    display: none;
+}
+footer .footer-div .col-md-2{
+	margin:.8rem 0;
+}
+
+#map{
+    margin:3rem 0;
+}
+.find-a-lab .find-a-lab-inner .form-control {
+    height: calc(1.5em + 1rem + 2px);
+    margin: .5rem 0;
+    font-size: 14px;
+}
+.btn{
+    xwidth:100%;
+}
+.paginations .det {
+    display: none;
+}
+.payment .payment-content .pagi-sec {
+    width: 100%;
+}
+.payment .pd-heading h2 {
+    font-size: 15px;
+}
+.current_opening
+.current_opening-inn .form-control{
+    font-size: 13px;
+}
+.current_opening h6{
+    font-size: 20px;
+}
+.current_opening .ex{
+    flex-wrap: wrap;
+}
+.current_opening .bg{
+    display: none;
+}
+.current_opening ul li{
+    line-height: 1.4;
+}
+.current_opening
+.current_opening-inn{
+    margin:.6rem 0;
+}
+}
+@media screen and (max-width: 640px){}
+@media screen and (max-width: 600px){}
+@media screen and (max-width: 480px){
+	/*Human Anatomy*/
+	.skeleton-section .human .male {
+    		max-width: 300px;
+	}
+	.skeleton-section .brain img {
+    width: 45px;
+}
+	.skeleton-section .brain {
+    	left: 123px;
+ 	}
+ 	.skeleton-section .tyroid img {
+    width: 35px;
+}
+ 	.skeleton-section .has-tip:hover:before {
+    font-size: 14px;
+    transform: translate(-70%,-10%);
+    line-height: 1.4;
+	}
+	.skeleton-section .lungs {
+    position: absolute;
+    top: 116px;
+    z-index: 998;
+    left: 98px;
+    opacity: 1;
+}
+.skeleton-section .heart {
+    position: absolute;
+    top: 135px;
+    z-index: 99999;
+    left: 139px;
+    opacity: 1;
+}
+.skeleton-section .heart img {
+    width: 30px;
+}
+.skeleton-section .liver {
+    position: absolute;
+    top: 202px;
+    z-index: 9;
+    left: 103px;
+    opacity: 1;
+}
+.skeleton-section .liver img {
+    width: 60px;
+}
+.skeleton-section .stomach {
+    position: absolute;
+    top: 200px;
+    z-index: 999;
+    left: 130px;
+    opacity: 1;
+}
+.skeleton-section .stomach img {
+    width: 55px;
+}
+.skeleton-section .intestine {
+    position: absolute;
+    top: 235px;
+    z-index: 9;
+    left: 108px;
+    opacity: 1;
+}
+.skeleton-section .intestine img {
+    width: 80px;
+}
+.skeleton-section .kidney {
+    position: absolute;
+    top: 237px;
+    z-index: 999;
+    left: 115px;
+    opacity: 1;
+}
+.skeleton-section .kidney img {
+    width: 65px;
+}
+.skeleton-section .pancreas {
+    position: absolute;
+    top: 252px;
+    z-index: 9999;
+    left: 135px;
+    opacity: 1;
+}
+.skeleton-section .pancreas img {
+    width: 25px;
+}
+.skeleton-section .reproductive {
+    position: absolute;
+    top: 245px;
+    z-index: 1;
+    left: 116px;
+    opacity: 1;
+}
+.skeleton-section .col-lg-6{
+	padding: 	0;
+}
+.skeleton-section .reproductive img {
+    width: 60px;
+}
+.skeleton-section .lungs img {
+    width: 95px;
+}
+
+	.skeleton-section .tyroid {
+    position: absolute;
+    top: 78px;
+    left: 127px;
+    opacity: 1;
+}
+.skeleton-section .f-human .f-brain {
+    position: absolute;
+    top: 9px;
+    z-index: 999;
+    left: 123px;
+    opacity: 1;
+}
+.skeleton-section .f-human .f-brain img {
+    width: 50px;
+}
+.skeleton-section .f-human .f-tyroid {
+    position: absolute;
+    top: 92px;
+    z-index: 999;
+    left: 130px;
+    opacity: 1;
+}
+.skeleton-section .f-human .f-tyroid img {
+    width: 35px;
+}
+.skeleton-section .f-lungs {
+    position: absolute;
+    top: 135px;
+    left: 104px;
+    opacity: 1;
+    z-index: 9;
+}
+.skeleton-section .f-lungs img {
+    width: 90px;
+}
+.skeleton-section .f-heart {
+    position: absolute;
+    top: 150px;
+    z-index: 99999;
+    left: 145px;
+    opacity: 1;
+}
+.skeleton-section .f-heart img {
+    width: 30px;
+}
+.skeleton-section .f-liver {
+    position: absolute;
+    top: 215px;
+    left: 110px;
+    opacity: 1;
+    z-index: 999;
+}
+.skeleton-section .f-stomach {
+    position: absolute;
+    top: 218px;
+    left: 141px;
+    opacity: .7;
+    z-index: 999999;
+}
+.skeleton-section .f-stomach img {
+    width: 50px;
+}
+.skeleton-section .f-kidney {
+    position: absolute;
+    top: 247px;
+    left: 120px;
+    opacity: 1;
+    z-index: 9999999;
+}
+.skeleton-section .f-kidney img {
+    width: 65px;
+}
+.skeleton-section .f-pancreas {
+    position: absolute;
+    top: 260px;
+    left: 137px;
+    opacity: 1;
+    z-index: 999999;
+}
+.skeleton-section .f-pancreas img {
+    width: 30px;
+}
+.skeleton-section .f-intestine {
+    position: absolute;
+    top: 242px;
+    left: 105px;
+    opacity: 1;
+    z-index: 10;
+}
+.skeleton-section .f-intestine img {
+    width: 90px;
+}
+.skeleton-section .f-reproductive {
+    top: 279px;
+    position: absolute;
+    left: 83px;
+    z-index: 1;
+    z-index: 9;
+}
+.skeleton-section .f-reproductive img {
+    width: 130px;
+}
+	/**/
+	.locations .heading p {
+    	line-height: 1.2;
+    	font-size: 14px;
+	}
+	.locations .locations-inner h2{
+		font-size: 30px;
+	}
+	.video-slider h2 {
+    	line-height: 1.3;
+	}
+	.locations .locations-inner p {
+    	font-size: 15px;
+	}
+	.banner-sec .form-div {
+	    width: 85%;
+	}
+	.healthpackage_inner .hp {
+    	padding: .5rem;
+    }
+    .healthpackage_inner .healthpackage_content h2{
+    	font-size: 22px;
+    }
+    .healthpackage_inner .healthpackage_content .rates .old-rates {
+    font-size: 16px;
+	}
+	.healthpackage_inner .healthpackage_content .rates .nowat {
+    font-size: 13px;
+ }
+ .healthpackage_inner .healthpackage_content .rates .new-rates {
+    font-size: 21px;
+}
+.healthpackage_inner .test_includes {
+    font-size: 14px;
+ }
+ .healthpackage_inner .test_includes img{
+ 	width:40px;
+ }
+ .healthpackage_inner .hp-btn{
+ 	flex-wrap:wrap;
+ }
+ .book-btn, .cart-btn{
+ 	width:100%;
+ 	margin:.16rem 0;
+ }
+ .hp_div{
+ 	margin: 10px 5px ;
+ }
+ .habits .slick-next {
+    right: 10px;
+}
+.habits .slick-prev {
+    left: 10px;
+}
+.skeleton-section{
+	xdisplay:none;
+}
+.banner-sec{
+	overflow: hidden;
+}
+.skeleton-section .skeleton-content-section .inner-section{
+	display:block;
+	width: 100%;
+}
+.skeleton-section .skeleton-content-section {
+    margin:1rem 0;
+}
+.skeleton-section .skeleton-content-section .inner-section{
+	margin: 0;
+}
+.skeleton-section .skeleton-content-section .inner-section .inner-btn {
+    text-align: center;
+    margin: -1.1rem 0 0;
+}
+.skeleton-section .skeleton-content-section .inner-section p {
+    font-size: 14px;
+}
+.skeleton-section .skeleton-content-section .inner-section .inner-section-l{
+		    border: 1px solid #eee;
+    padding: .5rem .5rem 2rem .5rem;
+}
+.btn,
+.view-btn,
+.book-btn,
+.cart-btn,
+.skeleton-section .nav-pills .nav-link	{
+	font-size:13px;
+}
+.form-div .card-body{
+	padding:.4rem;
+}
+.form-div .card-body .mt-5{
+	margin-top: 1.5rem !important
+}
+.blog {
+    margin-top: -3px;
+}
+.payment .Checkout-detail-sec .bg-c {
+    padding: 1rem;
+}
+}
+@media screen and (max-width: 425px){}
+@media screen and (max-width: 414px){}
+@media screen and (max-width: 384px){}
+@media screen and (max-width: 375px){}
+@media screen and (max-width: 360px){}
+@media screen and (max-width: 320px){}
