@@ -629,3 +629,31 @@ li.active {
     text-align: center;
     display: block;
 }
+.overview {
+    background-color: #061a35;
+    padding: 70px 0px 70px;
+}
+.sec-desc {
+    font-size: 16px;
+    line-height: 28px;
+}
+.overview p{
+    color: #fff;
+    line-height: 1.6;
+    margin-bottom: .6rem;
+}
+.green-color {
+    color: #c1dc2e;
+}
+.overview-adv p {
+    color: #fff;
+    width: 250px;
+    text-align: center;
+    display: block;
+    margin: 7px auto 0;
+    font-style: oblique;
+}
+.overview-slider .col-4{
+    text-align: center;
+    margin:2rem 0;
+}
