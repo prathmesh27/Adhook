@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ADHOOK</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Chrome, Firefox OS and Opera -->
+        <meta name="theme-color" content="#054166">
+        <!-- Windows Phone -->
+        <meta name="msapplication-navbutton-color" content="#054166">
+        <!-- iOS Safari -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="#054166">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+        <header class="bgwhiteopac navigation-bar">
+            <div class="container-fluid">
+                <div class="desktop-header">
+                    <div class="logo-sec">
+                        <a href="">
+                            <img src="images/icons/Logo_white.png">
+                        </a>
+                    </div>
+                    <div class="navigation-sec" id="myNavbar">
+                        <ul>
+                            <li><a href="">Products</a></li>
+                            <li><a href="">Products</a></li>
+                            <li><a href="">Products</a></li>
+                            <li><a href="">Products</a></li>
+                            <li><a href="">Products</a></li>
+                            <li><a href="" class="contact">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section>
+                <div class="growth-banner" style="background: url(https://www.amuratech.com/assets/amura-growth-marketing-campaign/banner-new-01-compressor-ee9fdf9a58fb1d3cd022957c29a60b03.png);height:100vh;object-fit: cover;">
+                    <div class="banner-content">
+                        <h2>GROWTH MARKETING.<br> ENGINEERED FOR <br>SUCCESS.</h2>
+                        <p>Data-driven solutions powered by strategic experiments</p>
+                        <a href="" class="expert">Talk to our experts</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+             <script src="js/jquery-3.4.1.min.js"></script>
+            <script src="js/popper.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/slick.min.js"></script>
+            <script src="js/main.js"></script>
+        </footer>
+        <script type="text/javascript">       
+         $(function() {
+            var header = $(".navigation-bar");
+            $(window).scroll(function() {    
+                var scroll = $(window).scrollTop();
+                
+            
+                if (scroll >= 300) {
+                    header.removeClass('bgwhiteopac').addClass("bgwhite");
+                } else {
+                    header.removeClass("bgwhite").addClass('bgwhiteopac');
+                }
+            });
+        });
+         var selector = '.navs li';
+
+        $(selector).on('click', function(){
+            $(selector).removeClass('active');
+            $(this).addClass('active');
+        });
+        </script>
+    </body>
+    </html>
