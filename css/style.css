@@ -660,5 +660,113 @@ li.active {
 .services-tabs{
     position: sticky;
     top: 84px;
-
+}
+.what-we-do{
+    margin:3rem 0;
+}
+.wwd-sec{
+    margin: 2.6rem 0;
+}
+.wwd-sec p{
+    text-align: justify;
+    font-size:  15px;
+    margin:1rem 0;
+    line-height: 22px;
+    color: #3b3c3d;
+}
+.make-reinvent {
+        background: url(https://www.reinventdigital.com/wp-content/uploads/2018/01/what-we-do-pattern.jpg)repeat;
+        width:  100%;
+        padding:3rem 0 5rem;
+        background-attachment: fixed;
+}
+.make-reinvent 
+.common-sec{
+        background:#302F2F;
+        padding:3rem ;
+        text-align: center; 
+        color:#fff;
+}
+.rows{
+    display: flex;
+    align-items:flex-start;   
+}
+.make-reinvent
+.right-sec{
+    margin:8rem 0 0;
+    width:50%;
+    background:#23c1cb;
+    color:#000;
+    padding:5rem 3rem;
+}
+.make-reinvent
+.left-sec{
+    margin:3rem 0 0;
+    width:50%;
+}
+.make-reinvent 
+.common-sec h2{
+    font-size:  20px;
+    margin:1rem 0;
+    font-weight:    600;
+    line-height:    1.4;
+}
+.make-reinvent 
+.common-sec p{       
+    line-height: 1.5;
+}
+.mt-minus{
+    margin-top: -2rem;
+}
+.make-reinvent .cig .common-sec{
+    background:#fff;
+    color:#000;
+        -webkit-box-shadow: 60px 60px 47px -17px rgb(0 0 0 / 20%);
+    -moz-box-shadow: 60px 60px 47px -17px rgba(0,0,0,.2);
+    box-shadow: 60px 60px 47px -17px rgb(0 0 0 / 20%);
+}
+.make-reinvent 
+.rig{
+    margin-top: 5rem;
+}
+.banner-section{
+    background-attachment: fixed !important;   
+}
+/*patner*/
+.patner{
+    padding:3rem 0;
+}
+.patner p{
+    margin:  2rem 0;
+    width:100%;
+    line-height:    1.5;
+        text-align: left    ; 
+}
+.patner-logo{
+    padding:1rem ;
+    width:200px;
+}
+.get-in-touch {
+    padding:3rem 0;
+    background:#eee;
+}
+.get-in-touch h2{
+    text-align: center; 
+        font-size:  30px;
+        font-weight:    700;
+        line-height:    1.5l
+}
+.get-in-touch  p{
+    text-align:     center; 
+    margin:1rem auto;
+    line-height:    1.5;
+}
+.get-in-touch .btnss{
+    display:flex; 
+    margin-top: 2rem;  
+    justify-content: center;    
+    align-items:    center; 
+}
+.get-in-touch .btnss .btn{
+    margin:0 1rem;
 }
